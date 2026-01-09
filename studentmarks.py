@@ -16,13 +16,13 @@ def calculate_grade(marks):
 
 
 def get_student_details():
-    name = input("Enter student name: ")
-    department = input("Enter department: ")
-    semester = input("Enter semester: ")
+    name = "srigouri"
+    department = "BCA"
+    semester = 3
 
     marks = []
     for i in range(1, 4):
-        mark = int(input(f"Enter marks for subject {i}: "))
+        mark = 70 
         marks.append(mark)
 
     grade = calculate_grade(marks)
